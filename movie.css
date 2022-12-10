@@ -1,0 +1,48 @@
+/* section one here  */
+
+#one{
+    background-image: url(images/16.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#one h1{
+    color: white;
+    padding-left: 300px;
+    padding-top: 20vh;
+    font-size: 80px;
+}
+#one p{
+    padding-left: 300px;
+    padding-top: 20px;
+    width: 700px;
+    color: white;
+    font-weight: 100;
+}
+
+.logo img{
+    width: 60px;
+    border-radius: 10px;
+}
+
+/* navigation here  */
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: red;
+    color: white;
+}
+#nav_links a{
+    padding: 10px;
+    margin-top: 40px;
+    color: white;
+    text-decoration: none;
+}
+#nav_links a:hover{
+    background-color: rgb(212, 22, 22);
+    border-radius: 10px;
+}
